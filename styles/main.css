@@ -17,3 +17,74 @@
   --green-100: #dcf8c6;
   --primary-font: "Roboto", sans-serif;
 }
+
+body {
+    background-color: var(--primary-color);
+    padding: 40px;
+}
+
+.app {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    height: 100vh;
+    overflow: hidden;
+}
+
+aside {
+    background-color: var(--grey-900);
+    color: white;
+}
+
+aside header {
+    background-color: var(--grey-800);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile h2 {
+    font-size: 22px;
+}
+
+.profile img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.actions {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.actions button {
+    padding: 5px;
+    border:none;
+    border-radius: 8%;
+    cursor: pointer;
+    background-color: var(--grey-800);
+    color: var(--grey-300);
+}
+.actions button svg {
+    width: 25px;
+}
+
+img {
+    width: 80px;
+}
+
+.actions button:hover {
+    background-color: var(--grey-700);
+    transform: translateY(-4px);
+    transition: transform .2s;
+}
