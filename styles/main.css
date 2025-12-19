@@ -147,7 +147,6 @@ border-radius: 50%;
 object-fit: cover;
 }
 
-
 .user-chat:hover {
     background-color: var(--grey-700);
     cursor: pointer;
