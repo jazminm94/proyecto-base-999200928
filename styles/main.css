@@ -86,7 +86,7 @@ aside header {
 }
 
 .actions button svg:hover {
-    color: var(--blue-200);
+    color: var(--blue);
 }
 
 img {
